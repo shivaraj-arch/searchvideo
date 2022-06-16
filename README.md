@@ -20,13 +20,13 @@ To run this example:
 
 4. Run the application::
 
-     python3 makemigrations srt
-     python3 migrate
-     python3 manage.py runserver
+     python3 makemigrations srt  
+     python3 migrate  
+     python3 manage.py runserver   
     
 5. open localhost:8000/search_subtitle/ on browser and    
-     Please place video and update location file_path in srt/proj/srtparse.py 
-     Enter:
-     Search text : <text to search in video>
-     Av name : <video name> #not the path
-     Click on Submit
+     Please place video and update location file_path in srt/proj/srtparse.py   
+     Enter:   
+     Search text : text to search in video  
+     Av name : video name #not the path  
+     Click on Submit  
