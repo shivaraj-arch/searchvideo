@@ -1,6 +1,7 @@
 # searchvideo
 
 This is a simple search in video application using ccextractor, celery and django.
+Please install python3, ccextractor , celery and django before the following
 To run this example:
 
 1. Clone the repository::
@@ -8,7 +9,7 @@ To run this example:
      git clone https://github.com/tdsgit/searchvideo.git  
      cd searchvideo
 
-2. Create and activate a virtual environment::
+2. Create and activate a virtual environment ( if needed )::
 
      virtualenv env  
      source env/bin/activate 
@@ -27,5 +28,5 @@ To run this example:
      Please place video and update location file_path in srt/proj/srtparse.py 
      Enter:
      Search text : <text to search in video>
-     Av name : <video name> not the path
+     Av name : <video name> #not the path
      Click on Submit
