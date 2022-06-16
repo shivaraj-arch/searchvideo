@@ -1,0 +1,13 @@
+{% extends 'task/base.html' %}
+
+{% block content %}
+<h2>Subtitles</h2>
+
+<ul>
+    {% for phrase in object_list %}
+        <li>{{ phrase.timerange }} - {{ phrase.subtitles }}</li>
+    {% empty %}
+        <li>No subtitles. <a href="{% url 'search_subtitle' %}">Search Subtitles.</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
