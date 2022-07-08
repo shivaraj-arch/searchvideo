@@ -25,7 +25,7 @@ To run this example:
      python3 migrate   
      python3 manage.py runserver   
     
-5. open localhost:8000/search_subtitle/ on browser and     
+5. open localhost:8000/srt/search_subtitle/ on browser and     
      Please place video and update location file_path in srt/proj/srtparse.py     
      Enter:    
      Search text : text to search in video   
